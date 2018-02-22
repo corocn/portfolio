@@ -1,28 +1,28 @@
 <template>
   <div>
-    <div class="columns">
+    <div class="columns summary">
       <div class="column left-side is-one-fifth has-text-centered">
         <my-icon></my-icon>
       </div>
       <div class="column right-side">
-        <section class="hero">
+        <div class="hero">
           <div class="hero-body">
-            <div class="container">
-              <h1 class="title">
-                @corocn
+            <div class="container has-text-centered-mobile">
+              <h1 class="title is-2">
+                corocn
               </h1>
-              <h2 class="subtitle">
+              <h2 class="subtitle is-4">
                 Takahiro Tsuchiya
               </h2>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </div>
 
-    <div class="columns">
+    <section class="columns social">
       <div class="column left-side is-one-fifth has-text-centered">
-        Social
+        <h3 class="title is-4">Social</h3>
       </div>
       <div class="column right-side">
         <div class="tags">
@@ -32,11 +32,11 @@
           <span class="tag">Blog</span>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="columns">
+    <section class="columns skill">
       <div class="column left-side is-one-fifth has-text-centered">
-        Skills
+        <h3 class="title is-4">Skill</h3>
       </div>
       <div class="column right-side">
         <div class="tags">
@@ -56,11 +56,11 @@
           <span class="tag">Auth0</span>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="columns">
+    <section class="columns carrer">
       <div class="column left-side is-one-fifth has-text-centered">
-        Carrer
+        <h3 class="title is-4">Carrer</h3>
       </div>
       <div class="column right-side">
         <ul>
@@ -71,7 +71,7 @@
           <li>Nagoya Institute of Technology. / Computer Science. / 2007 - 2011</li>
         </ul>
       </div>
-    </div>
+    </section>
 
   </div>
 </template>
@@ -84,19 +84,33 @@ export default {
 </script>
 
 <style>
-  .left-side {
-    padding-top: 30px;
-  }
-
-  h1 {
-    bottom: 0;
+  h2 {
+    margin-top: 10px;
   }
 
   .right-side {
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: white;
   }
 
   li {
     margin-bottom: 3px;
+  }
+
+  section.social div.left-side{
+    border-right: 10px solid #ff98be;
+  }
+
+  section.skill div.left-side{
+    border-right: 10px solid #85d6ff;
+  }
+
+  section.carrer div.left-side{
+    border-right: 10px solid #ffe893;
+  }
+
+  section div{
+    margin-bottom: 40px;
   }
 </style>
