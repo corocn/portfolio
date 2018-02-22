@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <section class="columns social">
+    <section class="columns">
       <div class="column left-side is-one-fifth has-text-centered">
         <h3 class="title is-4">Social</h3>
       </div>
@@ -34,7 +34,7 @@
       </div>
     </section>
 
-    <section class="columns skill">
+    <section class="columns">
       <div class="column left-side is-one-fifth has-text-centered">
         <h3 class="title is-4">Skill</h3>
       </div>
@@ -58,7 +58,7 @@
       </div>
     </section>
 
-    <section class="columns carrer">
+    <section class="columns">
       <div class="column left-side is-one-fifth has-text-centered">
         <h3 class="title is-4">Carrer</h3>
       </div>
@@ -69,6 +69,26 @@
           <li>Denso Corporation. / Testing Enginner / 2013 - 2015</li>
           <li>Nagoya Institute of Technology. / Department of Scientific and Engineering Simulation. / 2011 - 2013 </li>
           <li>Nagoya Institute of Technology. / Computer Science. / 2007 - 2011</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="columns">
+      <div class="column left-side is-one-fifth has-text-centered">
+        <h3 class="title is-4">Presentation</h3>
+      </div>
+      <div class="column right-side">
+        <ul>
+        </ul>
+      </div>
+    </section>
+
+    <section class="columns">
+      <div class="column left-side is-one-fifth has-text-centered">
+        <h3 class="title is-4">Contact</h3>
+      </div>
+      <div class="column right-side">
+        <ul>
         </ul>
       </div>
     </section>
@@ -98,19 +118,23 @@ export default {
     margin-bottom: 3px;
   }
 
-  section.social div.left-side{
-    border-right: 10px solid #ff98be;
-  }
-
-  section.skill div.left-side{
-    border-right: 10px solid #85d6ff;
-  }
-
-  section.carrer div.left-side{
-    border-right: 10px solid #ffe893;
-  }
-
   section div{
     margin-bottom: 40px;
+  }
+
+  section div.left-side {
+    border-right: 10px solid white;
+  }
+
+  section:nth-child(3n+2) div.left-side {
+    border-right-color: #ff98be;
+  }
+
+  section:nth-child(3n+1) div.left-side {
+    border-right-color: #85d6ff;
+  }
+
+  section:nth-child(3n+0) div.left-side {
+    border-right-color: #ffe893;
   }
 </style>
