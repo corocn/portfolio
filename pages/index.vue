@@ -1,106 +1,106 @@
 <template>
   <div>
-    <div class="columns summary">
-      <div class="column left-side is-one-fifth has-text-centered">
-        <my-icon></my-icon>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <my-icon></my-icon>
+          <h1 class="title">
+            corocn
+          </h1>
+          <h2 class="subtitle">
+            Takahiro Tsuchiya
+          </h2>
+        </div>
       </div>
-      <div class="column right-side">
-        <div class="hero">
-          <div class="hero-body">
-            <div class="container has-text-centered-mobile">
-              <h1 class="title is-2">
-                corocn
-              </h1>
-              <h2 class="subtitle is-4">
-                Takahiro Tsuchiya
-              </h2>
+    </section>
+
+    <section class="section">
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Social
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="tags">
+                  <span class="tag">Twitter</span>
+                  <span class="tag">Github</span>
+                  <span class="tag">Facebook</span>
+                  <span class="tag">Blog</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <section class="columns">
-      <div class="column left-side is-one-fifth has-text-centered">
-        <h3 class="title is-4">Social</h3>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Interested
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="tags">
+                  <span class="tag">Ruby</span>
+                  <span class="tag">Rails</span>
+                  <span class="tag">PHP</span>
+                  <span class="tag">CakePHP</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">AWS</span>
+                  <span class="tag">Modern Frontend</span>
+                  <span class="tag">React.js</span>
+                  <span class="tag">Vue.js</span>
+                  <span class="tag">Nuxt.js</span>
+                  <span class="tag">Speech Recognition</span>
+                  <span class="tag">Julius</span>
+                  <span class="tag">MMDAgent</span>
+                  <span class="tag">Auth0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="column right-side">
-        <div class="tags">
-          <span class="tag">Twitter</span>
-          <span class="tag">Github</span>
-          <span class="tag">Facebook</span>
-          <span class="tag">Blog</span>
+
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Carrer
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <ul>
+                  <li>Misoca Inc. / Web Application Developer / 2017 - now</li>
+                  <li>Arc co.,ltd. / Web Application Developer / 2015 - 2017</li>
+                  <li>Denso Corporation. / Testing Enginner / 2013 - 2015</li>
+                  <li>Nagoya Institute of Technology. / Department of Scientific and Engineering Simulation. / 2011 - 2013</li>
+                  <li>Nagoya Institute of Technology. / Computer Science. / 2007 - 2011</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
-    <section class="columns">
-      <div class="column left-side is-one-fifth has-text-centered">
-        <h3 class="title is-4">Skill</h3>
-      </div>
-      <div class="column right-side">
-        <div class="tags">
-          <span class="tag">Ruby</span>
-          <span class="tag">Rails</span>
-          <span class="tag">PHP</span>
-          <span class="tag">CakePHP</span>
-          <span class="tag">MySQL</span>
-          <span class="tag">AWS</span>
-          <span class="tag">Modern Frontend</span>
-          <span class="tag">React.js</span>
-          <span class="tag">Vue.js</span>
-          <span class="tag">Nuxt.js</span>
-          <span class="tag">Speech Recognition</span>
-          <span class="tag">Julius</span>
-          <span class="tag">MMDAgent</span>
-          <span class="tag">Auth0</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="columns">
-      <div class="column left-side is-one-fifth has-text-centered">
-        <h3 class="title is-4">Carrer</h3>
-      </div>
-      <div class="column right-side">
-        <ul>
-          <li>Misoca Inc. / Web Application Developer / 2017 - now</li>
-          <li>Arc co.,ltd. / Web Application Developer / 2015 - 2017</li>
-          <li>Denso Corporation. / Testing Enginner / 2013 - 2015</li>
-          <li>Nagoya Institute of Technology. / Department of Scientific and Engineering Simulation. / 2011 - 2013 </li>
-          <li>Nagoya Institute of Technology. / Computer Science. / 2007 - 2011</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="columns">
-      <div class="column left-side is-one-fifth has-text-centered">
-        <h3 class="title is-4">Presentation</h3>
-      </div>
-      <div class="column right-side">
-        <ul>
-        </ul>
-      </div>
-    </section>
-
-    <section class="columns">
-      <div class="column left-side is-one-fifth has-text-centered">
-        <h3 class="title is-4">Contact</h3>
-      </div>
-      <div class="column right-side">
-        <ul>
-        </ul>
-      </div>
-    </section>
-
   </div>
 </template>
 
 <script>
-import MyIcon from '~/components/MyIcon.vue'
-export default {
-  components: { MyIcon }
-}
+  import MyIcon from '~/components/MyIcon.vue'
+
+  export default {
+    components: {MyIcon}
+  }
 </script>
 
 <style>
@@ -108,18 +108,8 @@ export default {
     margin-top: 10px;
   }
 
-  .right-side {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: white;
-  }
-
   li {
     margin-bottom: 3px;
-  }
-
-  section div{
-    margin-bottom: 40px;
   }
 
   section div.left-side {
@@ -127,14 +117,14 @@ export default {
   }
 
   section:nth-child(3n+2) div.left-side {
-    border-right-color: #ff98be;
-  }
-
-  section:nth-child(3n+1) div.left-side {
     border-right-color: #85d6ff;
   }
 
-  section:nth-child(3n+0) div.left-side {
+  section:nth-child(3n+1) div.left-side {
     border-right-color: #ffe893;
+  }
+
+  section:nth-child(3n+0) div.left-side {
+    border-right-color: #ff98be;
   }
 </style>
