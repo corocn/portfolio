@@ -47,6 +47,8 @@
             </header>
             <div class="card-content">
               <div class="content">
+
+                <h3 class="title is-6">Backend</h3>
                 <div class="tags">
                   <span class="tag">Ruby</span>
                   <span class="tag">Rails</span>
@@ -54,14 +56,28 @@
                   <span class="tag">CakePHP</span>
                   <span class="tag">MySQL</span>
                   <span class="tag">AWS</span>
-                  <span class="tag">Modern Frontend</span>
-                  <span class="tag">React.js</span>
-                  <span class="tag">Vue.js</span>
-                  <span class="tag">Nuxt.js</span>
+                  <span class="tag">Heroku</span>
+                  <span class="tag">Firebase</span>
+                  <span class="tag">JWT</span>
+                  <span class="tag">Auth0</span>
+                </div>
+
+                <h3 class="title is-6">Frontend</h3>
+                <div class="tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Redux</span>
+                  <span class="tag">Vue</span>
+                  <span class="tag">Vuex</span>
+                  <span class="tag">Nuxt</span>
+                </div>
+
+                <h3 class="title is-6">Voice UI</h3>
+                <div class="tags">
                   <span class="tag">Speech Recognition</span>
                   <span class="tag">Julius</span>
                   <span class="tag">MMDAgent</span>
-                  <span class="tag">Auth0</span>
+                  <span class="tag">Google Home</span>
+                  <span class="tag">Dialogflow</span>
                 </div>
               </div>
             </div>
