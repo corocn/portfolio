@@ -20,16 +20,16 @@
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
-                Social
+                Social Accounts
               </p>
             </header>
             <div class="card-content">
               <div class="content">
                 <div class="tags">
-                  <span class="tag">Twitter</span>
-                  <span class="tag">Github</span>
-                  <span class="tag">Facebook</span>
-                  <span class="tag">Blog</span>
+                  <social-tag name="twitter" href="https://twitter.com/corocn"></social-tag>
+                  <social-tag name="github" href="https://github.com/corocn"></social-tag>
+                  <social-tag name="facebook" href="https://www.facebook.com/takahiro.tsuchiya.1217"></social-tag>
+                  <social-tag name="book" href="http://blog.corocn.jp"></social-tag>
                 </div>
               </div>
             </div>
@@ -97,9 +97,10 @@
 
 <script>
   import MyIcon from '~/components/MyIcon.vue'
+  import SocialTag from '~/components/SocialTag.vue'
 
   export default {
-    components: {MyIcon}
+    components: {MyIcon, SocialTag}
   }
 </script>
 

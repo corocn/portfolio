@@ -11,6 +11,9 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    script: [
+      // { src: '//use.fontawesome.com/releases/v5.0.6/js/all.js' }
     ]
   },
   /*
@@ -36,6 +39,7 @@ module.exports = {
     }
   },
   modules: [
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+    '@nuxtjs/font-awesome'
   ]
 }
