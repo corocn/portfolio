@@ -30,16 +30,12 @@ div
     .container.has-text-centered
       h2.title Interest
       .tags
-        .tag.is-medium Web Application Architecture
-        .tag.is-medium Auth0
-        .tag.is-medium OIDC
-        .tag.is-medium JWT
-        .tag.is-medium Cognito
-        .tag.is-medium FIDO2
-        .tag.is-medium WebAuthN
+        .tag.is-medium Web Application
+        .tag.is-medium Authentication
+        .tag.is-medium Speech Recognition
 
       .notification
-        | ウェブアプリ全般と認可・認証に興味があります
+        | ウェブアプリ全般、認可・認証、音声認識に興味があります。インターネットが好きです。
 
   section.section
     .container.has-text-centered
@@ -56,7 +52,7 @@ div
           .tag.is-medium AWS
 
         .notification
-          | Ruby + AWS 2年、PHP + VPS 3年ほど。PHPはわりとレガシー、最近はRubyばかり。
+          | Ruby + AWS, Heroku 2年、PHP + AWS, VPS 3年ほど。PHPはわりとレガシー、最近はRubyばかり。
 
       .subcontainer
         h3.title.is-4 WEB FRONTEND
@@ -169,5 +165,18 @@ div
 
 .subcontainer {
   margin-top: 30px;
+}
+
+.notification {
+  background-color: white;
+}
+
+.is-dark {
+  background-color: #17256f;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
 }
 </style>
