@@ -19,13 +19,20 @@ div
   section.section
     .container.has-text-centered
       h2.title.is-3 Personal Information
-      div
+      .notification
         | インターネットではころちゃん・ころさんと呼ばれている。
-        | 岐阜県出身・在住。情報系の大学で音声認識を選考し、
+        | 岐阜県出身・在住。情報系の大学で音声認識を専攻し、
         | 大学院卒業後は大手自動車部品メーカーにてカーナビゲーションシステムの音声認識機能の開発に携わる。
         | その後、Web系SIerに転職、小規模Webシステムの開発でフロントエンド、バックエンド、インフラまで1人で担当していた。
-        | 現在はクラウド請求書のWebサービスをしている。最近の興味は認可・認証周りの技術を触って遊んでいる。
+        | 現在はクラウド請求書のWebサービスをしている。最近はモダンフロントエンドと認可・認証周りの技術を触って遊んでいる。
   
+      .notification.en
+        | I'm "Corochan" on Internet. Born and live in Gifu, Japan.
+        | Majoring in speech recognition at an information university.
+        | After that university, involved in developing a voice recognition system on a car navigation at a major automobile parts maker.
+        | After that work, I had been developing many front-end, back-end, infrastructure of small web applications at a system integration company.
+        | Now, developing a cloud invoicing service. and I'm playing about Modern-Frontend and Authentication apart from work.
+
   section.section
     .container.has-text-centered
       h2.title Interest
@@ -36,6 +43,9 @@ div
 
       .notification
         | ウェブアプリ全般、認可・認証、音声認識に興味があります。インターネットが好きです。
+
+      .notification.en
+        | I love Internet.
 
   section.section
     .container.has-text-centered
@@ -52,7 +62,8 @@ div
           .tag.is-medium AWS
 
         .notification
-          | Ruby + AWS, Heroku 2年、PHP + AWS, VPS 3年ほど。PHPはわりとレガシー、最近はRubyばかり。
+          | Ruby + AWS, Heroku about 2 years、PHP + AWS, VPS about 3 years. My PHP skill is so legacy. Recently Rubyist.
+
 
       .subcontainer
         h3.title.is-4 WEB FRONTEND
@@ -64,7 +75,7 @@ div
           .tag.is-medium Nuxt 
 
         .notification
-          | React、Vueそれぞれ1年程度。デザインスキルとセンスがない。
+          | React、Vue about 1 year each. No design skill. Bad at CSS.
 
       .subcontainer
         h3.title.is-4 MACHINE LEARNING & VOICE UI
@@ -79,6 +90,12 @@ div
           | 学生のときにJuliusという国産音声認識エンジンのメンテを手伝っていた。
           | MMDAgentという対話エージェントのiOS化の技術協力もやった。
           | 基本的に大学での研究とその延長。
+
+        .notification.en
+          | Just a bit knowledge of speech recognition and recognition engine.
+          | At student, I had been maintaing Julius (high-performance, small-footprint large vocabulary continuous speech recognition engine.).
+          | Technical support of porting MMDAgent that is dialogue agent on Android to iOS application.
+          | Basically study at university and its extension
 
   section.section
     .container.has-text-centered
@@ -127,17 +144,22 @@ div
       .subcontainer
         h3.title.is-4 2018
         .notification
-          | "Auth0"でつくる！認証付きSPA at 
+          | "Auth0"でつくる！認証付きSPA (Auth0 fan-book that is integration guide of Auth0, Nuxt and Rails)
+          
+          div
+          | at 
           a(href="https://techbookfest.org/event/tbf04")
             | TechBookFest4
-
           div
             a(href="https://techbookfest.org/event/tbf04/circle/21030001")
               | Circle Page
             | , 
             a(href="http://blog.corocn.jp/entry/2018/04/01/231815")
               | Blog Post
+
+        .notification
           
+
   section.section
     .container.has-text-centered
       h2.title Contact
