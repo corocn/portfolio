@@ -28,7 +28,7 @@ div
   
       .notification.en
         | I'm "Corochan" on Internet. Born and live in Gifu, Japan.
-        | Majoring in speech recognition at an information university.
+        | Majoring in speech recognition at university of computer science.
         | After that university, involved in developing a voice recognition system on a car navigation at a major automobile parts maker.
         | After that work, I had been developing many front-end, back-end, infrastructure of small web applications at a system integration company.
         | Now, developing a cloud invoicing service. and I'm playing about Modern-Frontend and Authentication apart from work.
