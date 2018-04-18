@@ -62,7 +62,7 @@ div
           .tag.is-medium AWS
 
         .notification
-          | Ruby + AWS, Heroku about 2 years、PHP + AWS, VPS about 3 years. My PHP skill is so legacy. Recently Rubyist.
+          | Ruby + AWS, Heroku about 2 years, PHP + AWS, VPS about 3 years. My PHP skill is so legacy. Recently Rubyist.
 
 
       .subcontainer
@@ -75,7 +75,7 @@ div
           .tag.is-medium Nuxt 
 
         .notification
-          | React、Vue about 1 year each. No design skill. Bad at CSS.
+          | React and Vue about 1 year each. No design skill.
 
       .subcontainer
         h3.title.is-4 MACHINE LEARNING & VOICE UI
@@ -95,7 +95,7 @@ div
           | Just a bit knowledge of speech recognition and recognition engine.
           | At student, I had been maintaing Julius (high-performance, small-footprint large vocabulary continuous speech recognition engine.).
           | Technical support of porting MMDAgent that is dialogue agent on Android to iOS application.
-          | Basically study at university and its extension
+          | Basically study at university and its extension.
 
   section.section
     .container.has-text-centered
