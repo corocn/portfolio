@@ -193,7 +193,7 @@ div
   background-color: white;
 }
 
-.is-dark {
+.hero.is-dark {
   background-color: #17256f;
 }
 
