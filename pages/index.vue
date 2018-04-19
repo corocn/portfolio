@@ -193,6 +193,7 @@ div
 
 .notification {
   background-color: white;
+  padding: 5px;
 }
 
 .hero.is-dark {
