@@ -27,11 +27,13 @@ div
         | 現在はクラウド請求書のWebサービスをしている。最近はモダンフロントエンドと認可・認証周りの技術を触って遊んでいる。
   
       .notification.en
-        | I'm "Corochan" on Internet. Born and live in Gifu, Japan.
-        | Majoring in speech recognition at university of computer science.
+        | I go by the name "Corochan" on the Internet. I was born and live in Gifu, Japan. 
+        | At university, I studied computer science and majored in speech recognition.
+        | After university, I was involved in developing a voice recognition system for a car navigation system at a major automobile parts maker.
+        | After that position, I developed infrastructure, front-end, and back-end for small-scale web applications at a systems integration company.
         | After that university, involved in developing a voice recognition system on a car navigation at a major automobile parts maker.
-        | After that work, I had been developing many front-end, back-end, infrastructure of small web applications at a system integration company.
-        | Now, developing a cloud invoicing service. and I'm playing about Modern-Frontend and Authentication apart from work.
+        | Now, I am developing a cloud invoicing service.
+        | Outside of work, I’ve been developing skills with modern front-end and authentication methods.
 
   section.section
     .container.has-text-centered
@@ -62,7 +64,7 @@ div
           .tag.is-medium AWS
 
         .notification
-          | Ruby + AWS, Heroku about 2 years, PHP + AWS, VPS about 3 years. My PHP skill is so legacy. Recently Rubyist.
+          | Ruby + AWS, Heroku about 2 years, PHP + AWS, VPS about 3 years. My PHP skill is becoming rusty. Recently, I became a Rubyist.
 
 
       .subcontainer
@@ -75,7 +77,7 @@ div
           .tag.is-medium Nuxt 
 
         .notification
-          | React and Vue about 1 year each. No design skill.
+          | React and Vue about 1 year for each. I have little to no design skill.
 
       .subcontainer
         h3.title.is-4 MACHINE LEARNING & VOICE UI
@@ -92,10 +94,10 @@ div
           | 基本的に大学での研究とその延長。
 
         .notification.en
-          | Just a bit knowledge of speech recognition and recognition engine.
-          | At student, I had been maintaing Julius (high-performance, small-footprint large vocabulary continuous speech recognition engine.).
-          | Technical support of porting MMDAgent that is dialogue agent on Android to iOS application.
-          | Basically study at university and its extension.
+          | I have a little understanding about speech recognition and recognition engines. 
+          | As a student, I helped maintain Julius (high-performance, small-footprint large vocabulary continuous speech recognition engine.).
+          | Also, I was technical support in porting MMDAgent, which is a dialogue agent on Android, to an iOS application.
+          | Basically, it was my study at university, and continues to be my interest.
 
   section.section
     .container.has-text-centered
@@ -144,7 +146,7 @@ div
       .subcontainer
         h3.title.is-4 2018
         .notification
-          | "Auth0"でつくる！認証付きSPA (Auth0 fan-book that is integration guide of Auth0, Nuxt and Rails)
+          | "Auth0"でつくる！認証付きSPA (Auth0 fan-book, which is an integration guide for Auth0, Nuxt and Rails)
           
           div
           | at 
